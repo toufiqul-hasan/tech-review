@@ -1,0 +1,38 @@
+.home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 10%;
+}
+
+.home img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.first-heading {
+  font-size: 50px;
+}
+
+.second-heading {
+  color: #5146e7;
+  font-size: 50px;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.demo-btn {
+  background-color: #5146e7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
