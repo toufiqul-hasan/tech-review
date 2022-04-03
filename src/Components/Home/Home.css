@@ -26,7 +26,7 @@ p {
   font-weight: 600;
 }
 
-.demo-btn {
+.button {
   background-color: #5146e7;
   color: #ffffff;
   border: none;
@@ -35,4 +35,11 @@ p {
   padding: 10px;
   text-align: center;
   cursor: pointer;
+}
+
+.reviews {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 10%;
 }
