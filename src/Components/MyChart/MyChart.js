@@ -45,8 +45,9 @@ const MyChart = () => {
   return (
     <div className="chart">
       <div>
+        <h1>Month Wise Sell</h1>
         <LineChart width={500} height={500} data={data}>
-          <Line type="monotone" dataKey="Sell" stroke="#8884d8" strokeWidth={3} />
+          <Line type="monotone" dataKey="Sell" stroke="#6666CC" strokeWidth={3} />
           <XAxis dataKey="month" />
           <Legend />
           <Tooltip />
@@ -54,6 +55,7 @@ const MyChart = () => {
         </LineChart>
       </div>
       <div>
+      <h1>Investment Vs Revenue</h1>
         <BarChart width={500} height={500} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month"/>
@@ -65,6 +67,7 @@ const MyChart = () => {
         </BarChart>
       </div>
       <div>
+      <h1>Investment Vs Revenue</h1>
         <AreaChart width={500} height={500} data={data}>
           <defs>
             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -81,15 +84,16 @@ const MyChart = () => {
           <Tooltip />
           <YAxis />
           <CartesianGrid strokeDasharray="3 3" />
-          <Area type="monotone" dataKey="Revenue" stroke="#8884d8" strokeWidth={2} fillOpacity={1} fill="url(#colorUv)"/>
-          <Area type="monotone" dataKey="Investment" stroke="#82ca9d" strokeWidth={2} fillOpacity={1} fill="url(#colorPv)"/>
+          <Area type="monotone" dataKey="Investment" stroke="#8884d8" strokeWidth={2} fillOpacity={1} fill="url(#colorUv)"/>
+          <Area type="monotone" dataKey="Revenue" stroke="#82ca9d" strokeWidth={2} fillOpacity={1} fill="url(#colorPv)"/>
         </AreaChart>
       </div>
       <div>
+      <h1>Investment Vs Revenue Vs Sell</h1>
       <PieChart width={500} height={500}>
-        <Pie data={data} dataKey="Investment" nameKey="month" cx="50%" cy="50%" innerRadius={10} outerRadius={50}fill="#8566AA" />
-        <Pie data={data} dataKey="Sell" nameKey="month" cx="50%"cy="50%" innerRadius={50} outerRadius={100} fill="#6983AA" />
-        <Pie data={data}dataKey="Revenue"nameKey="month"cx="50%"cy="50%"innerRadius={85}outerRadius={110}fill="#8EC6C5"label />
+        <Pie data={data} dataKey="Investment" nameKey="month" cx="50%" cy="50%" innerRadius={10} outerRadius={50}fill="#8884d8" />
+        <Pie data={data} dataKey="Sell" nameKey="month" cx="50%"cy="50%" innerRadius={50} outerRadius={100} fill="#6666CC" />
+        <Pie data={data}dataKey="Revenue"nameKey="month"cx="50%"cy="50%"innerRadius={85}outerRadius={110}fill="#82ca9d"label />
         <Tooltip />
       </PieChart>
       </div>
