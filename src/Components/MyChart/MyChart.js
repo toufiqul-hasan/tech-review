@@ -89,7 +89,7 @@ const MyChart = () => {
         </AreaChart>
       </div>
       <div>
-      <h1>Investment Vs Revenue Vs Sell</h1>
+      <h1>Investment Vs Sell Vs Revenue</h1>
       <PieChart width={500} height={500}>
         <Pie data={data} dataKey="Investment" nameKey="month" cx="50%" cy="50%" innerRadius={10} outerRadius={50}fill="#8884d8" />
         <Pie data={data} dataKey="Sell" nameKey="month" cx="50%"cy="50%" innerRadius={50} outerRadius={100} fill="#6666CC" />

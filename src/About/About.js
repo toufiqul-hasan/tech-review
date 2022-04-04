@@ -1,10 +1,11 @@
 import React from "react";
+import soon from "../Assets/Images/soon.png";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="about">
-      <h1>Coming Soon!</h1>
+    <div>
+      <img src={soon} alt="" />
     </div>
   );
 };
