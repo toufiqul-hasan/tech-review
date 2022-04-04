@@ -41,12 +41,12 @@ const Blogs = () => {
       <p>
         Answer:
         <br /> <b>Inline:</b> The element doesn't start on a new line and only
-        occupy just the width it requires. Can't set the width or height. <br />
+        occupy just the width it requires. Can't set the width or height values. <br />
         <b>Inline-Block:</b> It's formatted just like the inline element where
         it doesn't start on a new line. But can set width and height values.{" "}
         <br />
         <b>Block:</b> The element will start on a new line and occupy the full
-        width available and can set width and height values.
+        width available. Can set width and height values.
       </p>
     </div>
   );
