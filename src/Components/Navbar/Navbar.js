@@ -5,8 +5,8 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo-container">
-        <h1>Tech Review</h1>
+      <div className="logo">
+        <h1>Tech <span className="review">Review</span></h1>
       </div>
       <div className="link-container">
         <NavLink

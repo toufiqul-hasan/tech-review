@@ -58,8 +58,8 @@ const MyChart = () => {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month"/>
           <YAxis />
-          <Bar dataKey="Investment" barSize={30} fill="#8884d8" />
-          <Bar dataKey="Revenue" barSize={30} fill="#82ca9d" />
+          <Bar dataKey="Investment" stackId="a" fill="#8884d8" />
+          <Bar dataKey="Revenue" stackId="a" fill="#82ca9d" />
           <Legend />
           <Tooltip />
         </BarChart>

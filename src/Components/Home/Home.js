@@ -1,9 +1,12 @@
 import React from "react";
-import Image from "../../Assets/Images/macbook.avif";
-import Reviews from "../Reviews/Reviews";
+import useReviews from "../../hooks/useReviews";
+import macbook from "../../Assets/Images/macbook.avif";
+import Review from "../Review/Review";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [reviews, setReviews] = useReviews();
   return (
     <div>
       <div className="home">
@@ -18,13 +21,21 @@ const Home = () => {
           <button className="button">Live Demo</button>
         </div>
         <div>
-          <img src={Image} alt="" />
+          <img src={macbook} alt="" />
         </div>
       </div>
-      <div className="reviews">
-        <h1>Customer Reviews</h1>
-        <Reviews></Reviews>
-        <button className="button">See All Reviews</button>
+      <div>
+        <h1 className="main">Customer Reviews</h1>
+        <div className="reviews">
+          {reviews.slice(0, 3).map((review) => (
+            <Review key={review.id} review={review}></Review>
+          ))}
+        </div>
+        <div className="main">
+          <Link to="/reviews">
+            <button className="button">See All Reviews</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

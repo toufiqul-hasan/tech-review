@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Jonathan Black",
+    "detail": "Best laptop in the world! Highly recommended.",
+    "rating": "5/5",
+    "img": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Irene Oliver",
+    "detail": "No complains so far. Very fast and performs great.",
+    "rating": "5/5",
+    "img": "https://randomuser.me/api/portraits/women/71.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Piers Hill",
+    "detail": "Very much satisfied with performance!",
+    "rating": "5/5",
+    "img": "https://randomuser.me/api/portraits/men/86.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Mary Abraham",
+    "detail": "Particularly happy with execution!",
+    "rating": "5/5",
+    "img": "https://randomuser.me/api/portraits/women/76.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Jacob Glover",
+    "detail": "No whines up to this point. Quick and performs great.",
+    "rating": "5/5",
+    "img": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Diana Henderson",
+    "detail": "Best laptop on the planet! Enthusiastically suggested.",
+    "rating": "5/5",
+    "img": "https://randomuser.me/api/portraits/women/50.jpg"
+  }
+]

@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "../../Assets/Images/404.png";
+import error404 from "../../Assets/Images/error404.png";
 import "./NotFound.css";
 
 const NotFound = () => {
   return (
     <div>
-      <img src={Image} alt="" />
+      <img src={error404} alt="" />
     </div>
   );
 };

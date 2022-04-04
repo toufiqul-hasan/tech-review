@@ -17,7 +17,7 @@
 }
 
 .second-heading {
-  color: #5146e7;
+  color: #6666CC;
   font-size: 50px;
 }
 
@@ -27,7 +27,7 @@ p {
 }
 
 .button {
-  background-color: #5146e7;
+  background-color: #6666CC;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -37,9 +37,8 @@ p {
   cursor: pointer;
 }
 
-.reviews {
-  width: 100%;
+.main {
   text-align: center;
   margin-top: 50px;
-  padding: 0 10%;
+  margin-bottom: 10px;
 }
