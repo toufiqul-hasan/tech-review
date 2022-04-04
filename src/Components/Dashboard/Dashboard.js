@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import MyChart from "../MyChart/MyChart";
 
 const Dashboard = () => {
   return (
     <div>
-      
+      <MyChart />
     </div>
   );
 };
